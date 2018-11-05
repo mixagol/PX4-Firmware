@@ -1,0 +1,14 @@
+
+
+
+# https://github.com/PX4/Firmware/issues/9863
+cd platforms/nuttx/NuttX/nuttx/include
+wget https://raw.githubusercontent.com/esp8266/Arduino/master/tools/sdk/libc/xtensa-lx106-elf/include/_ansi.h
+
+
+# enable drivers
+vim cmake/configs/nuttx_px4fmu-v2_default.cmake
+
+make clean
+make px4fmu-v2_default
+
