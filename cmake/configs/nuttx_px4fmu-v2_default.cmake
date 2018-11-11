@@ -32,9 +32,9 @@ set(config_module_list
 	drivers/differential_pressure/ms4525
 	#drivers/differential_pressure/ms5525
 	#drivers/differential_pressure/sdp3x
-	drivers/distance_sensor/ll40ls
-	#drivers/distance_sensor/mb12xx
-	drivers/distance_sensor/sf0x
+	#drivers/distance_sensor/ll40ls
+	drivers/distance_sensor/mb12xx
+	#drivers/distance_sensor/sf0x
 	#drivers/distance_sensor/sf1xx
 	#drivers/distance_sensor/srf02
 	#drivers/distance_sensor/teraranger
@@ -51,7 +51,7 @@ set(config_module_list
 	#drivers/iridiumsbd
 	#drivers/irlock
 	drivers/magnetometer/hmc5883
-	#drivers/magnetometer/bmm150
+	drivers/magnetometer/bmm150
 	drivers/magnetometer/lis3mdl
 	#drivers/mb12xx
 	#drivers/mkblctrl
